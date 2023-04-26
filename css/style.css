@@ -1,0 +1,300 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #5f5f5f;
+}
+
+.subtitle {
+  color: #fff;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title,
+.colored-section {
+  background-color: #ffb6b9;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  margin-left: -10%;
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  margin-right: -1%;
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.download-button {
+  margin: 5% 3% 5%0;
+  background-color: #bbded6;
+  border-color: #bbded6;
+}
+
+.download-button:hover {
+  background-color: #61c0bf;
+  border-color: #61c0bf;
+}
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 80%;
+  position: absolute;
+  right: 1%;
+}
+
+#adoption {
+  position: relative;
+  background-image: url(your-image-url.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5%0;
+}
+
+.adoption-title {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dog-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 2%auto;
+  padding: 2%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.dog-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+  color: #61c0bf;
+  margin-bottom: 1rem;
+}
+
+.dog-description {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.dog-adopt-button {
+  background-color: #61c0bf;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dog-adopt-button:hover,
+.how-to-adopt-box:hover {
+  background-color: #bbded6;
+}
+
+.how-to-adopt-box {
+  border: 2px solid #bbded6;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.how-to-adopt-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.how-to-adopt-box h3,
+.how-to-adopt-box p {
+  color: #333;
+}
+
+.how-to-adopt-box h3:hover {
+  color: #bbded6;
+  cursor: pointer;
+}
+
+#donate {
+  background-color: #ffb6b9;
+  position: relative;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.card-text,
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #61c0bf;
+  border-color: #61c0bf;
+}
+
+.btn-primary:hover {
+  background-color: #bbded6;
+  border-color: #bbded6;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.btn-primary:active {
+  background-color: #bbded6;
+  border-color: #bbded6;
+  box-shadow: none;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #bbded6;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #61c0bf;
+}
+
+#press,
+#testimonials {
+  background-color: #bbded6;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#about-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about-us h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#about-us p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#about-us img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#footer {
+  background-color: #ffb6b9;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
